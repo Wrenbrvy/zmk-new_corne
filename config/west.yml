@@ -8,6 +8,8 @@ manifest:
       # - https://docs.zephyrproject.org/3.5.0/develop/west/manifest.html#projects
     - name: wrenbrvy
       url-base: https://github.com/Wrenbrvy
+    - name: m165437
+      url-base: https://github.com/M165437
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -15,6 +17,9 @@ manifest:
       import: app/west.yml
     - name: nice-view-mod
       remote: wrenbrvy
+      revision: main
+    - name: nice-view-gem 
+      remote: m165437
       revision: main
   self:
     path: config
