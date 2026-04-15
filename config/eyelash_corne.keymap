@@ -132,7 +132,7 @@
 &kp F13  &kp F14  &kp F15  &mkp MB4  &mkp MB5  &kp F18                           &mmv MOVE_UP                     &none  &none  &none  &none  &none  &none
 &kp F19  &kp F20  &kp F21  &kp F22   &kp F23   &kp F24           &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &none  &none  &none  &none  &none  &none
 &none    &none    &none    &none     &none     &none    &none                    &mmv MOVE_DOWN                   &none  &none  &none  &none  &none  &none
-                           &none     &none     &none                                                              &none  &none  &none
+                           &none     &none     &kp F24                                                            &none  &none  &none
             >;
 
             sensor-bindings = <&scroll_encoder>;
